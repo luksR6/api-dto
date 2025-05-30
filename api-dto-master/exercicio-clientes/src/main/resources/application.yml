@@ -1,0 +1,14 @@
+spring:
+  seguranca:
+    segredo: "chave de acesso"
+    tempo_validade: 1
+  jpa:
+    database: POSTGRESQL
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/senac-teste-clientes
+    password: Sen@c2023
+    username: postgres
+    driverClassName: org.postgresql.Driver
